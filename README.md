@@ -11,7 +11,11 @@ To develop this idea, we worked through the software engineering cycle to establ
 ## How to run
 To run this mock-up, complete the following steps:
 1. Download this repository as a zip file
+
 2. Unzip the file
 3. Open the folder and **right-click** on the **html** file
 4. Hover on **"Open with"** and select **Google Chrome**
 5. Our welcome screen with three dropdown menus should appear in a Chrome browser.
+
+<img width="922" alt="Screenshot 2024-12-04 at 9 37 29 PM" src="https://github.com/user-attachments/assets/cb9dd37c-3907-4457-83d5-bbee9341b244">
+
