@@ -98,3 +98,17 @@ SELECTION SECTION
     border: none;
     padding: 0.5em;
 }
+
+.footer-sec {
+    height: auto;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    background-color: #3d7f96;
+ }
+ 
+ .footer-sec p {
+    padding: 2em;
+    margin: 0;
+    font-style: italic;
+ }
