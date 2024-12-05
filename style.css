@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/*CSS RESET for full bleed*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* -----------------------------------------------------------------
+LANDING SECTION 
+----------------------------------------------------------------- */
+.landing-sec {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #fafce7;
+}
+
+.logo-and-text {
+    display: flex;
+    align-items: center;
+    margin: 8em;
+}
+
+.large-logo img {
+    width: 200px;
+    margin-right: 1em;
+}
+
+.logo-and-text h1 {
+    font-family: "Passion One";
+    font-size: 120px;
+    color: #bc4c4a;
+    margin: 0;
+}
+
+/* -----------------------------------------------------------------
+START SECTION 
+----------------------------------------------------------------- */
+.start-sec {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: auto;
+    background-color: #3d7f96;
+    height: auto;
+}
+
+.start-sec h2 {
+    font-size: 35px;
+    font-family: "Roboto";
+    color: white;
+}
+
+/* -----------------------------------------------------------------
+SELECTION SECTION 
+----------------------------------------------------------------- */
+.selection-sec {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+    margin: auto;
+    background-color: #3d7f96;
+    height: 400px;
+}
+
+.welcome-container {
+    padding: 2em;
+}
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-container label {
+    margin-bottom: 1em;
+    align-self: flex-start;
+    color: white;
+    font-family: Roboto;
+}
+
+
+
+.dropdown-container select {
+    font-family: Roboto;
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding: 0.5em;
+}
